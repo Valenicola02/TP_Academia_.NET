@@ -1,0 +1,4 @@
+C:\Users\ALUMNO\Downloads\TP_Academia_.NET-main\TP_Academia_.NET-main\Academia\obj\Debug\net8.0\Academia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALUMNO\Downloads\TP_Academia_.NET-main\TP_Academia_.NET-main\Academia\obj\Debug\net8.0\Academia.AssemblyInfoInputs.cache
+C:\Users\ALUMNO\Downloads\TP_Academia_.NET-main\TP_Academia_.NET-main\Academia\obj\Debug\net8.0\Academia.AssemblyInfo.cs
+C:\Users\ALUMNO\Downloads\TP_Academia_.NET-main\TP_Academia_.NET-main\Academia\obj\Debug\net8.0\Academia.csproj.CoreCompileInputs.cache

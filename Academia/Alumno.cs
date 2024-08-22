@@ -8,5 +8,9 @@ namespace Academia
 {
     internal class Alumno : Personas
     {
+        public Alumno(int IDPersona, string Nombre, string Apellido, string Email, string Telefono, DateTime FechaNacimiento, int Legajo, int IDPlan) : base(IDPersona, Nombre, Apellido, Email, Telefono, FechaNacimiento, Legajo, IDPlan)
+        {
+
+        }
     }
 }
