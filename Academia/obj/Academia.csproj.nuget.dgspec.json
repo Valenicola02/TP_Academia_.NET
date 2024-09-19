@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALUMNO\\Downloads\\TP_Academia_.NET-main\\TP_Academia_.NET-main\\Academia\\Academia.csproj": {}
+    "C:\\Users\\User\\Downloads\\Academia\\Academia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALUMNO\\Downloads\\TP_Academia_.NET-main\\TP_Academia_.NET-main\\Academia\\Academia.csproj": {
+    "C:\\Users\\User\\Downloads\\Academia\\Academia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALUMNO\\Downloads\\TP_Academia_.NET-main\\TP_Academia_.NET-main\\Academia\\Academia.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\Academia\\Academia.csproj",
         "projectName": "Academia",
-        "projectPath": "C:\\Users\\ALUMNO\\Downloads\\TP_Academia_.NET-main\\TP_Academia_.NET-main\\Academia\\Academia.csproj",
-        "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALUMNO\\Downloads\\TP_Academia_.NET-main\\TP_Academia_.NET-main\\Academia\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\Academia\\Academia.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\Academia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,11 +35,28 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
